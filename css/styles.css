@@ -643,7 +643,6 @@ padding-left:0;
     background-color: #f3f3f3;
     font-family: "playfair display", sans-serif;
     color:#032620;
-    padding-top:3%;
 }
 
 .imgaccueil{
@@ -660,8 +659,14 @@ padding-left:0;
     position:relative;
 }
 
+.info{
+    padding-top:3%;
+}
+
 .description{
-    padding-bottom:2%;
+    padding-bottom:3%;
+    padding-top:3%;
+
 }
 
 .sumup{
@@ -670,12 +675,12 @@ padding-left:0;
 }
 
 .info{
-    padding-bottom:5%;
+    padding-bottom:3%;
     margin-left:5%;
 }
 
 .mairie1{
-margin:0!important;
+    margin:0!important;
 }
 
 .annee{
@@ -685,4 +690,5 @@ margin:0!important;
 
 .descriproj{
     margin-left:15%;
+    padding-bottom:5%
 }

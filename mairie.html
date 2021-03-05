@@ -17,6 +17,32 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <style>
+       /* .section {
+            position: relative;
+            display: flex;
+            height: 200vh;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            }
+
+        .column {
+            width: 120px;
+            height: 120px;
+            background-color: #828282;
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+            }
+
+        .parallax_scroll {
+            background-color: #f58232;
+            }*/
+    </style>
+    
     </head>
 
     <body>
@@ -32,7 +58,7 @@
              </div>
              <nav class="menu">
                 <ul>
-                    <li><a href="accueil.html">accueil</a></li>
+                    <li><a href="index.html">accueil</a></li>
                     <li><a href="article_1.html">Projets</a></li>
                     <li><a href="about.html">A propos</a></li>
                 </ul>
@@ -42,9 +68,10 @@
         <div id="progress"></div>
 
         <section class="mairie" >
-            
+
+
                 <div class="container projet" id="text">
-                    <div class="row" data-aos="fade-in"> 
+                    <div class="row" > 
                         <h1 class="col-lg-12 titreproj"><strong>Mairie</strong></h1>
                         <h1 class="col-lg-12 titreproj1">Lachapelle-</h1>
                         <h1 class="col-lg-12 titreproj2">sous-Chaux</h1>
@@ -56,7 +83,9 @@
                     </div>
                 </div>
 
-                <img data-aos="fade-right" class="img-fluid imgaccueil float-right" src="img/accueilmairie.png">
+                <img data-aos="fade-left" class="img-fluid imgaccueil float-right" src="img/accueilmairie.png">
+
+
                 
         </section>
 
@@ -107,10 +136,11 @@
 
                         <div class="container">
                             <div class="row">
-                                <img class="col-lg-6" src="img/img2.png">
-                                <img class="col-lg-6" src="img/img3.png">
+                                    <img class="col-lg-6 parallax_scroll1" src="img/img2.png">
+                                    <img class="col-lg-6 parallax_scroll" src="img/img3.png">
                             </div>
                         </div>
+                        
                         
                     </div>
                 </div>
@@ -121,20 +151,35 @@
 
                 <h2 class=" font-weight-bold description">Charte Graphique -</h2>
 
-                    <div class="row">
-                        <div class="container col-lg-6">
-                            <img class="col-lg-12" src="img/img4.png">
-                            <img class="col-lg-12" src="img/img3.png">
-                        </div>
-                        
-                        <div class="row col-lg-6 info">
-                            <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
-                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                            </p>
-                        </div>
-                    </div>
 
-             </div>
+                <div class="row info">
+                    <img class="col-lg-3" src="img/logo1.png"> 
+                    <img class="col-lg-3" src="img/logo2.png"> 
+                    <p class="col-lg-6" style="margin-top:7%;"> 
+                        Pour ce projet, nous avons du recréer entièrement l'identité visuelle du site de la mairie. Nous avons commencé par chercher un logo à l'image du village : avec son calme, sa nature, son clocher. Après différentes propositions, l'équipe de la mairie à fait son choix final. 
+                        Le nouveau logo est simple : le nom du village et son slogan entouré d'un cercle bleu qui rappelle ses nombreux étangs. Les deux traits plus clairs font références à la nature et aux promenades. Nous l'avons décliné avec et sans slogan, et en différentes teintes pour qu'il s'adapte aux différents couleurs de fond.
+                    </p> 
+                </div>
+
+                <div style="margin-top:10%;">
+                    <p class="text-center">
+                        <img class="col-lg-1" id="color1" src="img/color1.png">
+                    </p>
+
+                    <div class="row info">
+
+                        <div class="col-lg-3"></div>
+                        <p class="col-lg-6" style="padding-bottom:3%; text-align: justify;">Pour l'harmonie colorée, nous avons hésité entre des couleurs vives mettant en avant le dynamisme de l'équipe municipale et du village en générale, et des couleurs pastels pour s'aligner avec l'image de village calme et rural. Finalement, nous avons opté pour un mélange des deux : une couleur dominante bleu clair, qui rappelle les étangs, l'eau, qui apaise. Et une tonique rouge vive, qui attire le regard et dynamise la page. </p>
+                        <div class="col-lg-3"></div>
+
+                        <div class="col-lg-5"></div>
+                        <img class="col-lg-1" id="color2" src="img/color2.png">
+                        <img class="col-lg-1" id="color3" src="img/color3.png">
+                        <div class="col-lg-5"></div>
+                        
+                    </div>
+                </div>
+            </div>
          </section>
 
          <section class="dev">
@@ -143,19 +188,18 @@
                 <h2 class="font-weight-bold description">Développement -</h2>
 
                 <div class="row">
+                    <p class="col-lg-5"  style="margin-top:5%;"> Le développement du site internet a été réalisé avec le CMS Wordpress. Nous avons choisit d'utiliser le thème Catmandu puisqu'il correspondait au design crée sur la maquette. Pour que l'équipe de la mairie puisse se servir du site par la suite, nous avons décidé d'utiliser le plug-in Elementor.
+                        Un site "mode d'emploi" a également été créer afin de guider l'équipe municipal à gérer le site. Celui-ci a été développé en HTML / CSS et comprends de nombreux tutoriels vidéos et écrit. 
+                    </p>
 
-                    <div class="col-lg-6 info">
-                        <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                        </p>
-                    </div>
+                    <div class="col-lg-1"></div>
 
-                    <div class="container col-lg-6">
-                        <img class="col-lg-12" src="img/img3.png">
-                    </div>                  
+                    <video class="col-lg-6" autoplay loop muted inline  >
+                        <source src="img/dev.mp4" controls autoplay>
+                    </video>
                 </div>
 
-             </div>
+            </div>
          </section>
 
          <section class="com">
@@ -169,9 +213,9 @@
                         <img class="col-lg-12" src="img/img3.png">
                     </div> 
 
-                    <div class="col-lg-6 info">
-                        <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                    <div class="col-lg-6">
+                        <p> Nous avons exploré différentes pistes avec l'équipe municipale afin de créer de nouveaux moyens de communication. Étant contre la création de réseau sociaux, nous avons proposer différents moyens de communication hors ligne pour faire connaître le site,
+                            avec notamment la création d'affiches et flyers disposés aux endroits clés du village. Nous avons également mis en place une newsletters depuis le site internet. 
                         </p>
                     </div>  
 
@@ -185,9 +229,9 @@
 
          <section class="text-center next">
              <div class="container">
-                <img class="col-lg-auto info" src="img/puce.png">
+                <img class="col-lg-auto " src="img/puce.png">
                 <p>Prochain projet :</p>
-                <a class="col-lg-12 liensf info" href="#"><h2>Ziped <br> Réseau social de mode</h2></a>
+                <a class="col-lg-12 liensf " href="#"><h2>Ziped <br> Réseau social de mode</h2></a>
              </div>
              
          </section>
@@ -228,4 +272,5 @@
         <script>
             AOS.init();
         </script>
+
     </body>
