@@ -1,0 +1,688 @@
+
+
+html, body{
+    margin:0;
+    padding:0;
+}
+
+.bodyaccueil {
+    width:100%;
+    background: url(../img/fond.png);
+    background-attachment: fixed;  
+    
+}
+
+ /* -------------BARRE PROGRESS-------------*/
+
+
+ #progress{
+	background-color:#8E7396;
+	height: 3px;
+	width: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+}
+
+/* ------------- IMG ACCUEIL-------------*/
+
+.headerAccueil{
+    background:rgba(255,255,255,0);
+
+}
+.logo{
+    float:left;
+    margin-left:2%;
+    margin-top:1%;
+    position: fixed;
+    color: #917999;
+}
+
+.logocolor{
+    color: #917999;
+}
+
+.sectionAccueil{
+    position: relative;
+    width:100%;
+    height:100vh;
+    overflow:hidden;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1{
+    margin-top:5%;
+}
+
+.img-1{
+    margin-left: 5%;
+    margin-top:-2%;
+}
+
+.img-2{
+    margin-left: 18%;
+    margin-top:18%;
+}
+
+.img-3{
+    margin-left: 10%;
+    margin-top: 55%;
+}
+
+.img-4{
+    margin-top: 7%;
+}
+
+
+/* -------------ACCUEIL-------------*/
+
+.titre, p, a, h1,h2, .sectionAccueil {
+    color:#f3f3f3f3;
+    font-family: "Playfair Display", sans-serif;
+}
+
+.titre{
+    margin-top:15%;
+}
+
+.layer {
+    list-style-type: none;
+    float:right;
+    position: absolute;
+    right:0;
+    bottom: 0;
+}
+
+.nuage{
+    top:5%;
+    z-index:-97;
+}
+
+.cercle{
+    z-index: -99;
+}
+
+.montagne, .colline{
+    z-index:-98;
+}
+
+.no-padding > [class*='container-fluid'] {
+padding-right:0;
+padding-left:0;
+}
+
+.MV {
+    font-size: 75px;
+}
+
+.web {
+    font-size:30px;
+}
+
+.barre{
+    padding-top:3%;
+    padding-bottom:3%;
+}
+
+.fp-viewing-firstPage #fp-nav ul li a span{
+    background: #f3f3f3;
+}
+
+.fp-viewing-secondPage #fp-nav ul li a span{
+    background: #f3f3f3;
+}
+
+.fp-viewing-3rdPage #fp-nav ul li a span{
+    background: #f3f3f3;
+}
+
+.fp-viewing-4rthPage #fp-nav ul li a span{
+    background: #f3f3f3;
+}
+
+.fp-viewing-5thPage #fp-nav ul li a span{
+    background: #f3f3f3;
+}
+/* -----ACCUEIL > Projet1--------*/
+
+.projet1{
+    margin-top:30%;
+}
+
+.titreprojet{
+    font-size:50px;
+}
+
+.legende{
+    font-size:25px;
+}
+
+.btn{
+    background-color: #8E7396;
+    color:#f3f3f3f3;
+}
+
+.voirplus{
+    margin-left:39%;
+}
+
+.bouton{
+   position:relative;
+   float:left;
+   margin-top:-16%;
+}
+
+.btn:hover{
+    background-color: violet;
+    color: #f3f3f3f3;
+}
+
+.img1{
+    float:right;
+    margin-top:5%;
+    margin-bottom:5%;
+    margin-right:5%;
+}
+
+.titreprojet, .legende{
+    margin-left:20%;
+}
+
+.barreprojet{
+    margin-left:50%;
+    margin-top:15%;
+    margin-bottom:15%;
+}
+
+.numero{
+    font-size:150px;
+    font-weight: bold;
+    position: relative;
+    float:right;
+    margin-top:-22%;
+    margin-left:2%;
+    color:#f3f3f3f3!important;
+}
+
+.text-right{
+    margin-left:-2%;
+}
+
+.num{
+    color:#f3f3f3f3;
+}
+
+
+/* -------------ACCUEIL > FOOTER-------------*/
+
+.footeraccueil{
+    background-color:#032620;
+    margin-top:20%;
+    padding-bottom:5%;
+    padding-top:5%;
+}
+
+.contact{
+    color:#8E7396;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.contact:hover{
+    color: violet;
+    text-decoration: none;
+}
+
+.icones{
+    margin-top:5%;
+    margin-bottom:5%;
+}
+
+.mail{
+    color:#8E7396;
+    text-decoration: underline;
+}
+
+.mail:hover{
+    color:violet;
+    text-decoration: none;
+}
+
+.liensf{
+    color:#8E7396;
+    font-size: 20px;
+    cursor: pointer;
+    line-height: 50px;
+}
+    
+.liensf:hover{
+    color: violet;
+    text-decoration: none;
+}
+
+.droit{
+    padding-top:3%;
+    font-size: 15px;
+}
+/* -------------MENU-------------*/
+
+.nav-toggle{
+    background: transparent;
+    width:30px;
+    height: 30px;
+    position: absolute;
+    top: 30px;
+    right:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    cursor: pointer;
+ }
+ .nav-toggle-bar{
+    background: #8E7396;
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    transition:all .5s;
+ }
+ .nav-toggle-bar::before{
+    background: #8E7396;
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    content:"";
+    top: -10px;
+    transition:all .5s;
+ }
+ .nav-toggle-bar::after{
+    background: #8E7396;
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    content:"";
+    top: 10px;
+    transition:all .5s;
+ }
+ .menu{
+    position: fixed;
+    background: white;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    z-index: 1;
+    transform: translateX(100vw);
+    transition: all .5s;
+    justify-content: center;
+ }
+ .menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+ }
+ .menu li{
+    margin-bottom: 30px;
+    margin-top: 70px;
+ 
+ }
+ .menu a{
+    color: #032620;
+    text-decoration: none;
+    font-family: "Playfair Display", sans-serif;
+    font-size: 75px;
+    text-align: center;
+ }
+
+ .menu a:hover{
+    color: brown;
+ }
+ .menu-open .menu{
+    transform: translateX(0);
+ }
+ .menu-open .nav-toggle-bar{
+    transform: rotate(135deg);
+ }
+ .menu-open .nav-toggle-bar:before,
+ .menu-open .nav-toggle-bar:after{
+    transform: rotate(90deg);
+    top: 0;
+ }
+ .nav-toggle{
+    transition: all .5s;
+ 
+ }
+ .noscroll{
+    overflow: hidden;
+ }
+ .noscroll body{
+    overflow: hidden;
+ }
+ .menu li{
+    transform: translateX(70px);
+    transition: all .5s ease;
+    opacity: 0;
+ }
+ .menu-open .menu li{
+    transform: translateX(0);
+    opacity: 1;
+ }
+ .menu-open .menu li:nth-child(n+1){transition-delay: .3s;}
+ .menu-open .menu li:nth-child(n+2){transition-delay: .35s;}
+ .menu-open .menu li:nth-child(n+3){transition-delay: .4s;}
+ .menu-open .menu li:nth-child(n+4){transition-delay: .45s;}
+ .menu-open .menu li:nth-child(n+5){transition-delay: .5s;}
+
+ /* -------------A PROPOS-------------*/
+
+ .bodyabout{
+    font-family: "Playfair Display", sans-serif;
+ }
+
+ .headerAbout{
+    background:rgba(255,255,255);
+    padding-bottom:20%;
+ }
+ 
+ .logoAbout{
+     color: #917999;
+     font-weight: bolder;
+     float:left;
+     margin-left:2%;
+     margin-top:1%;
+     position: fixed;
+ }
+
+ .titreabout{
+     color:#032620;
+     font-size:100px;
+     text-align:center;
+     margin-bottom:-1.2%;
+
+ }
+
+ .titreabout1{
+     color:#f3f3f3f3;
+     font-size:100px;
+     transform: rotateX(180deg);
+     content: "W3Docs";
+     display: flex;
+     justify-content: center;
+     margin-top: -1.2%;
+ }
+
+ .sectionAbout{
+     background-color: #032620;
+ }
+
+ .number{
+    font-size:50px;
+    font-weight:bolder;
+    color:#f3f3f3f3;
+ }
+
+ .who{
+    font-size:50px;
+    font-weight:bolder;
+    color:#f3f3f3f3;
+}
+
+.texte{
+    line-height: 30px;
+    color:#f3f3f3f3;
+    margin-top:5%;
+}
+
+.part2{
+    margin-top:2%;
+}
+
+.qui h2,p{
+    color:#f3f3f3f3;
+}
+
+.qui, .formulaire{
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+
+.competence{
+    padding-top: 10%;
+}
+
+.presentation{
+    margin-top:3%;
+}
+
+.barre1{
+    padding-top:3%;
+    padding-bottom:3%;
+    max-width:5%;
+}
+
+
+ /* -------------ABOUT > LOISIRS-------------*/
+
+
+.loisir, .formulaire{
+    background-color: #f3f3f3f3; 
+    padding-bottom: 10%;
+    padding-top: 10%;   
+}
+
+.loisir h2,p{
+    color:#032620;
+}
+
+.imgloisirs img{
+    width: 50%;
+    height: 50%;
+    margin: auto;    
+    display: block;
+    padding-bottom:5%;
+}
+
+.titrewho{
+    padding-top: 5%;
+    padding-bottom: 2%;
+    font-style: italic;
+    font-weight: bolder;
+    font-size:25px;
+    color:#f3f3f3f3;
+}
+
+ /* -------------LOISIRS > COMPETENCES-------------*/
+
+
+.col-lg-6, .comp{
+    padding-bottom:5%;
+}
+
+.competence{
+    background-color: #032620;
+}
+
+.comptext{
+    color:#f3f3f3f3;
+    padding-bottom: 5%;
+}
+
+.text-left{
+    font-size:20px;
+}
+
+.illustrator{
+    width:80%;
+}
+
+.wordpress{
+    width:65%;
+}
+
+.barreprog{
+    margin-right: 20%;
+}
+
+.progress-bar{
+    background-color: #8E7396!important;
+}
+
+.progress{
+    height: 20px!important;
+}
+
+.titreprog{
+    margin-bottom: 2%!important;
+    padding-left:-10%;
+}
+
+.marge {
+    padding-bottom:0!important;
+}
+
+
+/* -------------LOISIRS > FORMULAIRE-------------*/
+
+.formulaire{
+    text-align: center;
+}
+
+    .barreform{
+        position: relative;
+    }
+
+    .formbtn{
+        margin-left:260%;
+    }
+
+    .form-group{
+        width:200%;
+        margin-left:180%;
+    }
+
+    .textform{
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    .footerabout{
+        background-color:white;
+    }
+
+    .footerabout1{
+        margin-top:0;
+        padding-bottom:5%;
+        padding-top:5%;
+    }
+
+    /* ------------- PROJET MAIRIE-------------*/
+
+    .mairie{
+        padding-top:5%;
+        background-color:#032620;
+    }
+
+    .titreproj, .titreproj1, .titreproj2 {
+        font-size: 55px;
+        z-index: 2;
+    }
+
+    .titreproj1{
+        margin-left:5%;
+    }
+
+    .titreproj2{
+        margin-left:10%;
+    }
+    
+    .butprojet {
+        font-size:30px;
+    }
+    
+    .barre{
+        padding-top:3%;
+        padding-bottom:3%;
+    }
+
+    .boutonprojet{
+        position:relative;
+        margin-top: 2%;
+    }
+
+    .butprojet, .boutonprojet{
+        margin-left:5%;
+        z-index: 2;
+    }
+
+     .projet{
+         padding-top:7%;
+         padding-bottom:10%;
+         font-family: "playfair display", sans-serif;
+         color:#f3f3f3f3;
+     }
+
+     .barre2{
+        padding-top: 3%;
+        padding-bottom: 3%;
+        margin-left: 25%;
+        z-index: 2;
+        width:15%!important;
+     }
+    
+/* ------------- projet mairie > part1-------------*/
+
+.projetsumup, .annee, .description, .charte, .dev, .com, .final, .next{
+    background-color: #f3f3f3;
+    font-family: "playfair display", sans-serif;
+    color:#032620;
+    padding-top:3%;
+}
+
+.imgaccueil{
+    float:right; 
+    position:relative; 
+    margin-top:-50%;
+}
+
+.liste li{
+    padding-bottom:5%;
+}
+
+.img1{
+    position:relative;
+}
+
+.description{
+    padding-bottom:2%;
+}
+
+.sumup{
+    margin-left:6%;
+    padding-bottom:10%;
+}
+
+.info{
+    padding-bottom:5%;
+    margin-left:5%;
+}
+
+.mairie1{
+margin:0!important;
+}
+
+.annee{
+    font-size:50px;
+    margin-top:-7%;
+}
+
+.descriproj{
+    margin-left:15%;
+}
