@@ -110,8 +110,8 @@ html, body{
 }
 
 .no-padding > [class*='container-fluid'] {
-padding-right:0;
-padding-left:0;
+padding-right:0!important;
+padding-left:0!important;
 }
 
 .MV {
@@ -666,7 +666,6 @@ padding-left:0;
 .description{
     padding-bottom:3%;
     padding-top:3%;
-
 }
 
 .sumup{
