@@ -42,7 +42,7 @@ AOS.init({
            viewPortHeight = window.innerHeight * 0.5 - elementHeight * 0.5,
            scrolled = windowTop - elementTop + viewPortHeight;
          currentElement.css({
-           transform: "translate3d(0," + scrolled * -0.2 + "px, 0)"
+           transform: "translate3d(0," + scrolled * 0.1 + "px, 0)"
          });
        }
      });
@@ -63,7 +63,7 @@ AOS.init({
            viewPortHeight = window.innerHeight * 0.5 - elementHeight * 0.5,
            scrolled = windowTop - elementTop + viewPortHeight;
          currentElement.css({
-           transform: "translate3d(0," + scrolled * 0.1 + "px, 0)"
+           transform: "translate3d(0," + scrolled * -0.1 + "px, 0)"
          });
        }
      });

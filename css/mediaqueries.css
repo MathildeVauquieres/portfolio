@@ -45,4 +45,68 @@
     .who{
       width:65%!important;
     }
+
+    .imgaccueil{
+      margin-top:-150%;
+    }
+    .large{
+      display:none;
+    }
+
+    .projet{
+      margin-top:95%;
+    }
+
+    .small{
+      display:block;
+    }
+
+  .imgaccueiltel{
+      display: block;
+      margin-top: -187%;
+  }
+
+  .titreproj{
+    margin-left:5%;
+  }
+
+  .titreproj1{
+    font-size:30px!important;
+  }
+
+  .boutonprojet{
+    margin-top:5%;
+  }
+
+  .imgaccueil{
+    display:none;
+  }
+
+  .sumup {
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+  .year{
+    text-align:left!important;
+  }
+
+  .descriproj{
+    margin-left:0;
+  }
+
+  .description{
+    padding-top: 10%;
+    padding-bottom: 8%;
+
+  }
+
+  .harmonie{
+    margin-top: 30%;
+  }
+
+  .carres{
+    margin-top:-75%;
+  }
+
 }

@@ -37,6 +37,7 @@ html, body{
     margin-top:1%;
     position: fixed;
     color: #917999;
+    z-index:9;
 }
 
 .logocolor{
@@ -585,6 +586,14 @@ padding-left:0!important;
 
     /* ------------- PROJET MAIRIE-------------*/
 
+    .imgaccueiltel{
+        display:none;
+    }
+
+    .small{
+        display:none;
+    }
+
     .mairie{
         padding-top:5%;
         background-color:#032620;
@@ -686,6 +695,10 @@ padding-left:0!important;
     font-size:50px;
     margin-top:-7%;
 }
+
+.year{
+    text-align:center!important;
+  }
 
 .descriproj{
     margin-left:15%;
