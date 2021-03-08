@@ -704,3 +704,45 @@ padding-left:0!important;
     margin-left:15%;
     padding-bottom:5%
 }
+
+
+.campus{
+    background-color:#f3f3f3f3;
+    padding-top:9%;
+
+}
+
+.cc{
+    color:#032620;
+}
+
+.cc1{
+    background-color: #032620;
+}
+
+.cc1b{
+    position: absolute;
+    margin-left: 25%;
+    z-index: 1;
+}
+
+.cc1bb{
+    position: relative;
+    margin-left: 39%;
+    margin-top: -28%;
+}
+
+.descriptioncc{
+    font-family: "playfair display", sans-serif;
+    color:#f3f3f3f3;
+    padding-bottom:3%;
+    padding-top:3%;
+}
+
+.harmonie{
+    padding-bottom:2%!important;
+}
+
+.cc3{
+    margin-top:-10%;
+}
