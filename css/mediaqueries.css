@@ -49,8 +49,9 @@
     .imgaccueil{
       margin-top:-150%;
     }
+
     .large{
-      display:none;
+      display:none!important;
     }
 
     .projet{
@@ -58,7 +59,7 @@
     }
 
     .small{
-      display:block;
+      display:block!important;
     }
 
   .imgaccueiltel{
@@ -109,4 +110,92 @@
     margin-top:-75%;
   }
 
+  .MV{
+    font-size:50px!important;
+  }
+  
+  .titreprojet{
+    font-size:30px!important;
+    margin-top:4%;
+    margin-left:26%;
+  }
+
+  .barreprojet{
+    margin-left:26%;
+    margin-top:39%;
+  }
+
+  .legende{
+    font-size:20px!important;
+    margin-left:27%;
+    margin-top:44%;
+  }
+
+  .voirplus{
+    margin-top: 82%;
+    position: absolute;
+    margin-left:26%;
+  }
+
+  .web{
+    font-size:20px!important;
+  }
+
+  .titre{
+    position:absolute;
+    margin-top:15%
+  }
+
+  #scene{
+    margin-top:80%;
+  }
+
+  #text1{
+    position: absolute;
+    margin-top: 47%;
+  }
+
+  #text2{
+    position: absolute;
+    margin-top: 57%;
+  }
+
+  #fp-nav.fp-left{
+  margin-top: 73%;
+  }
+
+  .img1{
+    margin-top:-89%;
+    margin-left:0%;
+  }
+
+  .num{
+    font-size: 51px;
+    text-align: left!important;
+    margin-top: 55%;
+    position: absolute;
+  }
+
+  .trait{
+    margin-left: 77%;
+    width : 23%;
+  }
+
+  .trait2{
+    margin-top: 83%;
+  }
+
+  .scroll{
+    padding-bottom: 43%;
+  }
+
+  .trait3{
+    margin-right: 6.8%;
+  }
+
+  .mail2{
+    padding-bottom: 35%;
+  }
+
+  
 }

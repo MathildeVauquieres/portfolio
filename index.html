@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/fullpage.css" />
-
+        <link rel="stylesheet" type= "text/css" href="css/mediaqueries.css"/>
 
         <script src="js/script.js"></script>    
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -51,36 +51,59 @@
             
     
             <div id="scene" data-relative-input="true" class="float-right">
-                <img src="img/cercles.png" data-depth='0.3'  class="img-1 img-fluid"  id="cercle">
+                <img src="img/cercles.png" data-depth='0.3'  class="img-1 img-fluid"   id="cercle">
                 <img src="img/montagnes.png" data-depth='0.2'  class="img-2 img-fluid"  id="montagne">
                 <img src="img/collines.png" data-depth='0.3'  class="img-3 img-fluid" id="colline">
                 <img src="img/nuages.png" data-depth='0.5'  class="img-4 img-fluid" id="nuage">
             </div>
             
+            <div class="trait"></div>
+            <div class="trait2 large"></div>
+            <p class="scroll large">Scroll down</p>
+            <div class="trait3"></div>
+            <a class="mail2" href="mailto:vauquieres.m@laposte.net">vauquieres.m@laposte.net</a>         
+
+            
+        
+
             <div id="text" data-relative-input="true" class="container titre">
                     <h1 class="col-lg-12 MV" data-depth='0.1'>Mathilde <br> Vauquieres</h1>
             </div>
 
             <div id="text1" data-relative-input="true" class="container ">
-                    <img class="col-lg-auto col-md-3 barre img-fluid" data-depth='0.2' src="img/barre.png">
+                    <img class="col-lg-auto col-md-3 col-6 barre img-fluid" data-depth='0.2' src="img/barre.png">
             </div>
 
             <div id="text2" data-relative-input="true" class="container ">
                 <h2 class="col-lg-12 web" data-depth='0.2'>Webdesign & Communication</h2>
             </div>
 
+            <div class=" icones2 large">
+                <a href="#"><img  src="img/fb.png"></a>
+                <a href="#"><img  src="img/insta.png"></a>
+                <a href="#"><img  src="img/linkedin.png"></a>
+        </div>
+
         </section>
 
-        
+        <div class="section projet1" id="section1" data-anchor="secondPage">   
+            
+            <div id="scene1" data-relative-input="true" class="float-right" style="z-index:-99;">
+                <img src="img/cercles.png" data-depth='0.1'  class="img-1 img-fluid large" id="cercle">
+                <img src="img/nuages.png" data-depth='0.5'  class="img-4 img-fluid large" id="nuage">
+            </div>
+            
+            <div id="img1" data-relative-input="true">
+                <img class="img1 img-fluid large " data-depth='0.3' src="img/projet1.png">
+                <img class="img1 img-fluid small" data-depth='0.3' src="img/mairiemobile.png">
 
-        <div class="section projet1" id="section1" data-anchor="secondPage">                
-            <img class="img1 img-fluid " src="img/projet1.png">
+            </div>
 
-            <div class="container titre">
-                <div class="row h100">
-                    <h1 class="col-lg-auto titreprojet"><b>Mairie</b> <br> Lachapelle-sous-Chaux</h1>
-                    <img class="col-lg-auto barreprojet img-fluid" src="img/barre.png">
-                    <h2 class="col-lg-auto legende">Refonte du site</h2>
+            <div class="container titre" >
+                <div class="row h100" id="text3" data-relative-input="true" >
+                    <h1 class="col-lg-auto titreprojet" data-depth='0.1'><b>Mairie</b> <br> Lachapelle-<br>sous-Chaux</h1>
+                    <img class="col-lg-auto col-6 barreprojet img-fluid" src="img/barre.png" data-depth='0.1'>
+                    <h2 class="col-lg-auto legende" data-depth='0.1'>Refonte du site</h2>
                 </div>
             </div>
 
@@ -89,18 +112,27 @@
             </div>
 
             <div class="container bouton">
-                <a href="mairie.html" class="btn btn-lg col-lg-auto voirplus">Voir Plus</a>
+                <a href="mairie.html" class="btn btn-lg col-6 col-lg-auto voirplus">Voir Plus</a>
             </div>
         </div>
 
-        <div class="section projet1" id="section2" data-anchor="3rdPage">                
-            <img class="img1 img-fluid " src="img/projet2.png">
+        <div class="section projet1" id="section2" data-anchor="3rdPage">
+            
+            <div id="scene2" data-relative-input="true" class="float-right" style="z-index:-99;">
+                <img src="img/cercles.png" data-depth='0.1'  class="img-1 img-fluid large" id="cercle">
+                <img src="img/nuages.png" data-depth='0.5'  class="img-4 img-fluid large" id="nuage">
+
+            </div>
+
+            <div id="img2" data-relative-input="true" >
+            <img class="img1 img-fluid " data-depth='0.1' src="img/projet2.png">
+            </div>
 
             <div class="container titre">
-                <div class="row h100">
-                    <h1 class="col-lg-auto titreprojet"><b>Ziped</b> <br> Réseau social de mode</h1>
-                    <img class="col-lg-auto barreprojet img-fluid " src="img/barre.png">
-                    <h2 class="col-lg-auto legende">Landing page, communication</h2>
+                <div class="row h100"  id="text4" data-relative-input="true" >
+                    <h1 class="col-lg-auto titreprojet" data-depth='0.1'><b>Application</b> <br> Campus Car</h1>
+                    <img class="col-lg-auto col-6 barreprojet img-fluid" data-depth='0.1' src="img/barre.png">
+                    <h2 class="col-lg-auto legende" data-depth='0.1'>Prototypage Interactif</h2>
                 </div>
             </div>
 
@@ -109,18 +141,26 @@
             </div>
 
             <div class="container bouton">
-                <a href="#" class="btn btn-lg col-lg-auto voirplus">Voir Plus</a>
+                <a href="#" class="btn btn-lg col-6 col-lg-auto voirplus">Voir Plus</a>
             </div>
         </div>
 
-        <div class="section projet1" id="section3" data-anchor="4rthPage">                
-            <img class="img1 img-fluid" src="img/projet3.png">
+        <div class="section projet1" id="section3" data-anchor="4rthPage">  
+
+            <div id="scene3" data-relative-input="true" class="float-right" style="z-index:-99;">
+                <img src="img/cercles.png" data-depth='0.1'  class="img-1 img-fluid large" id="cercle">
+                <img src="img/nuages.png" data-depth='0.5'  class="img-4 img-fluid large" id="nuage">
+            </div>
+
+            <div id="img3" data-relative-input="true">
+                <img class="img1 img-fluid" data-depth='0.1' src="img/projet3.png">
+            </div>
 
             <div class="container titre">
-                <div class="row h100">
-                    <h1 class="col-lg-auto titreprojet"><b>Dessine ton MMI</b> <br> Illustrator</h1>
-                    <img class="col-lg-auto barreprojet img-fluid " src="img/barre.png">
-                    <h2 class="col-lg-auto legende">Animation SVG</h2>
+                <div class="row h100" id="text5" data-relative-input="true" >
+                    <h1 class="col-lg-auto titreprojet" data-depth='0.1'><b>Dessine ton MMI</b> <br> Illustrator</h1>
+                    <img class="col-lg-auto barreprojet col-6 img-fluid " data-depth='0.1' src="img/barre.png">
+                    <h2 class="col-lg-auto legende" data-depth='0.1'>Animation SVG</h2>
                 </div>
             </div>
 
@@ -129,18 +169,27 @@
             </div>
 
             <div class="container bouton">
-                <a href="#" class="btn btn-lg col-lg-auto voirplus">Voir Plus</a>
+                <a href="#" class="btn btn-lg col-6 col-lg-auto voirplus">Voir Plus</a>
             </div>
         </div>
 
-        <div class="section projet1" id="section4" data-anchor="5thdPage">                
-            <img class="img1 img-fluid" src="img/projet3.png">
+        <div class="section projet1" id="section4" data-anchor="5thdPage"> 
+            
+            <div id="scene4" data-relative-input="true" class="float-right" style="z-index:-99;">
+                <img src="img/cercles.png" data-depth='0.1'  class="img-1 img-fluid large" id="cercle">
+                <img src="img/nuages.png" data-depth='0.5'  class="img-4 img-fluid large" id="nuage">
+
+            </div>
+
+            <div id="img4" data-relative-input="true">
+                <img class="img1 img-fluid"  data-depth='0.1'  src="img/projet3.png">
+            </div>
 
             <div class="container titre">
-                <div class="row h100">
-                    <h1 class="col-lg-auto titreprojet"><b>A propos</b> <br> </h1>
-                    <img class="col-lg-auto barreprojet img-fluid " src="img/barre.png">
-                    <h2 class="col-lg-auto legende">Qui suis-je ?</h2>
+                <div class="row h100" id="text6" data-relative-input="true">
+                    <h1 class="col-lg-auto titreprojet"  data-depth='0.1' ><b>A propos</b> <br> </h1>
+                    <img class="col-lg-auto barreprojet col-6 img-fluid"  data-depth='0.1'  src="img/barre.png">
+                    <h2 class="col-lg-auto legende"  data-depth='0.1' >Qui suis-je ?</h2>
                 </div>
             </div>
 
@@ -149,13 +198,11 @@
             </div>
 
             <div class="container bouton">
-                <a href="#" class="btn btn-lg col-lg-auto voirplus">Voir Plus</a>
+                <a href="#" class="btn btn-lg col-6 col-lg-auto voirplus">Voir Plus</a>
             </div>
         </div>
 
     </div>
-
-
 
 
         <footer class="footeraccueil">
@@ -191,42 +238,19 @@
         </footer>
             
 
-
-
-
         <script type="text/javascript" src="js/fullpage.js"></script>  
         <script src="./js/script.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
 
-        <script>
-            AOS.init();
-        </script>
-
         <script type="text/javascript">
-            let cercle = document.getElementById("cercle");
-            let montagne = document.getElementById("montagne");
-            let colline = document.getElementById("colline");
-            let nuage = document.getElementById("nuage");
-            let text = document.getElementById("text");
 
-
-            window.addEventListener('scroll', function(){
-                var value = window.scrollY;
-
-                cercle.style.bottom = -value * 0.1 + 'px';
-                montagne.style.bottom = -value * 0.5 + 'px';
-                colline.style.bottom = -value * 0.5 + 'px';
-                nuage.style.bottom = value * 0.5 + 'px';
-                text.style.top = -value * 0.5 + 'px';
-            })
+            AOS.init();
 
             var myFullpage = new fullpage('#fullpage', {
                 anchors: ['firstPage', 'secondPage', '3rdPage', '4rthPage', '5thPage'],
                 navigation: true,
                 navigationPosition: 'left',
             });
-
-
 
             var scene = document.getElementById('scene');
             var parallaxInstance = new Parallax(scene);
@@ -239,6 +263,42 @@
 
             var scene = document.getElementById('text2');
             var parallaxInstance = new Parallax(text2);
+
+            var scene = document.getElementById('scene1');
+            var parallaxInstance = new Parallax(scene1);
+
+            var scene = document.getElementById('scene2');
+            var parallaxInstance = new Parallax(scene2);
+
+            var scene = document.getElementById('scene3');
+            var parallaxInstance = new Parallax(scene3);
+
+            var scene = document.getElementById('scene4');
+            var parallaxInstance = new Parallax(scene4);
+
+            var scene = document.getElementById('text3');
+            var parallaxInstance = new Parallax(text3);
+
+            var scene = document.getElementById('img1');
+            var parallaxInstance = new Parallax(img1);
+                    
+            var scene = document.getElementById('img2');
+            var parallaxInstance = new Parallax(img2);
+
+            var scene = document.getElementById('text4');
+            var parallaxInstance = new Parallax(text4);
+
+            var scene = document.getElementById('img3');
+            var parallaxInstance = new Parallax(img3);
+
+            var scene = document.getElementById('text5');
+            var parallaxInstance = new Parallax(text5);
+
+            var scene = document.getElementById('img4');
+            var parallaxInstance = new Parallax(img4);
+
+            var scene = document.getElementById('text6');
+            var parallaxInstance = new Parallax(text6);
                     
         </script>
 
