@@ -40,6 +40,10 @@ html, body{
     z-index:9;
 }
 
+.logob{
+    width:40%;
+}
+
 .logocolor{
     color: #917999;
 }

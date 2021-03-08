@@ -142,8 +142,8 @@
   }
 
   .titre{
-    position:absolute;
-    margin-top:15%
+    position: absolute!important;
+    margin-top: 100%;
   }
 
   #scene{
