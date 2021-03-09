@@ -1,305 +1,231 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <title>Accueil</title>
+<head>
+   <meta charset="UTF-8">
+   <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+   <title>Accueil</title>
+   <link href="css/styles.css" rel="stylesheet">
+   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+   <link href="css/fullpage.css" rel="stylesheet" type="text/css">
+   <link href="css/mediaqueries.css" rel="stylesheet" type="text/css">
+   <link href="https://fonts.gstatic.com" rel="preconnect">
+   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+   <script src="js/script.js">
+   </script>
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
+   </script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
+   </script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js">
+   </script>
+</head>
 
-        <link rel="stylesheet" href="css/styles.css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="css/fullpage.css" />
-        <link rel="stylesheet" type= "text/css" href="css/mediaqueries.css"/>
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+<body class="bodyaccueil">
 
-        <script src="js/script.js"></script>    
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+   <header class="headerAccueil">
+      <a class="logo" href="index.html"><img alt="logo Mathilde Vauquieres" class="logob" src="img/logo.png"></a>
+   </header>
 
-        
-    </head>
-       
-    <body class="bodyaccueil">
+   <div id="progress"></div>
 
-    <header class="headerAccueil">
-        <a class="logo" href="index.html">
-            <img class="logob" src="img/logo.png">
-        </a>       
-    </header>
+   <div id="fullpage">
 
-    
-    <div id="progress"></div>
+      <section class="section active sectionAccueil" data-anchor="firstPage" id="section0">
+         <div class="float-right" data-relative-input="true" id="scene"><img alt="cercle" class="img-1 img-fluid" data-depth='0.3' src="img/cercles.png"> <img alt="montagne" class="img-2 img-fluid" data-depth='0.2' src="img/montagnes.png"> <img alt="colline" class="img-3 img-fluid" data-depth='0.3' src="img/collines.png"> <img alt="nuage" class="img-4 img-fluid" data-depth='0.5' src="img/nuages.png"></div>
+         <div class="trait"></div>
+         <div class="trait2 large"></div>
+         <p class="scroll large">Scroll down</p>
+         <div class="trait3"></div><a class="mail2" href="mailto:vauquieres.m@laposte.net">vauquieres.m@laposte.net</a>
+         <div class="container titre" data-relative-input="true" id="text">
+            <h1 class="col-lg-12 MV" data-depth='0.1'>Mathilde<br>
+            Vauquieres</h1>
+         </div>
+         <div class="container" data-relative-input="true" id="text1"><img alt="barre de séparation" class="col-lg-auto col-md-3 col-6 barre img-fluid" data-depth='0.2' src="img/barre.png"></div>
+         <div class="container" data-relative-input="true" id="text2">
+            <h2 class="col-lg-12 web" data-depth='0.2'>Webdesign & Communication</h2>
+         </div>
+         <div class=" icones2 large">
+            <a href="https://www.facebook.com/mathilde.vauquieres/"><img alt="icone facebook" src="img/fb.png"></a> <a href="https://www.instagram.com/mathilde.vauquieres/"><img alt="icone instagram" src="img/insta.png"></a> <a href="https://www.linkedin.com/in/mathilde-vauquieres/"><img alt="icone LinkedIn" src="img/linkedin.png"></a>
+         </div>
+      </section>
 
-    <div id="fullpage">
-
-        <section class="section active sectionAccueil" id="section0" data-anchor="firstPage" >  
-            
-    
-            <div id="scene" data-relative-input="true" class="float-right">
-                <img src="img/cercles.png" data-depth='0.3'  class="img-1 img-fluid"   id="cercle">
-                <img src="img/montagnes.png" data-depth='0.2'  class="img-2 img-fluid"  id="montagne">
-                <img src="img/collines.png" data-depth='0.3'  class="img-3 img-fluid" id="colline">
-                <img src="img/nuages.png" data-depth='0.5'  class="img-4 img-fluid" id="nuage">
+      <div class="section projet1" data-anchor="secondPage" id="section1">
+         <div class="float-right" data-relative-input="true" id="scene1" style="z-index:-99;"><img alt="cercle" class="img-1 img-fluid large" data-depth='0.1' src="img/cercles.png"> <img alt="nuages" class="img-4 img-fluid large" data-depth='0.5' src="img/nuages.png"></div>
+         <div data-relative-input="true" id="img1"><img alt="projet mairie lachapelle sous chaux" class="img1 img-fluid large" data-depth='0.3' src="img/projet1.png"> <img alt="projet mairie lachapelle sous chaux" class="img1 img-fluid small" data-depth='0.3' src="img/mairiemobile.png"></div>
+         <div class="container titre">
+            <div class="row h100" data-relative-input="true" id="text3">
+               <h1 class="col-lg-auto titreprojet" data-depth='0.1'><b>Mairie</b><br>
+               Lachapelle-<br>
+               sous-Chaux</h1><img alt="barre de séparation" class="col-lg-auto col-6 barreprojet img-fluid" data-depth='0.1' src="img/barre.png">
+               <h2 class="col-lg-auto legende" data-depth='0.1'>Refonte du site</h2>
             </div>
-            
-            <div class="trait"></div>
-            <div class="trait2 large"></div>
-            <p class="scroll large">Scroll down</p>
-            <div class="trait3"></div>
-            <a class="mail2" href="mailto:vauquieres.m@laposte.net">vauquieres.m@laposte.net</a>         
+         </div>
+         <div class="container numero">
+            <p class="col-lg-12 text-right num">1</p>
+         </div>
+         <div class="container bouton">
+            <a class="btn btn-lg col-6 col-lg-auto voirplus" href="mairie.html">Voir Plus</a>
+         </div>
+      </div>
 
 
-
-            <div id="text" data-relative-input="true" class="container titre">
-                    <h1 class="col-lg-12 MV" data-depth='0.1'>Mathilde <br> Vauquieres</h1>
+      <div class="section projet1" data-anchor="3rdPage" id="section2">
+         <div class="float-right" data-relative-input="true" id="scene2" style="z-index:-99;"><img class="img-1 img-fluid large" data-depth='0.1' src="img/cercles.png"> <img class="img-4 img-fluid large" data-depth='0.5' src="img/nuages.png"></div>
+         <div data-relative-input="true" id="img2">
+            <img alt="projet Application Campus Car" class="img1 img-fluid" data-depth='0.1' src="img/projet2.png"> 
+            <img alt="projet Application Campus Car" class="img1 img-fluid small" data-depth='0.3' src="img/campuscarmobile.png"></div>
+         <div class="container titre">
+            <div class="row h100" data-relative-input="true" id="text4">
+               <h1 class="col-lg-auto titreprojet" data-depth='0.1'><b>Application</b><br>
+               Campus Car</h1><img alt="barre de séparation" class="col-lg-auto col-6 barreprojet img-fluid" data-depth='0.1' src="img/barre.png">
+               <h2 class="col-lg-auto legende" data-depth='0.1'>Prototypage Interactif</h2>
             </div>
+         </div>
+         <div class="container numero">
+            <p class="col-lg-12 text-right num">2</p>
+         </div>
+         <div class="container bouton">
+            <a class="btn btn-lg col-6 col-lg-auto voirplus" href="campuscar.html">Voir Plus</a>
+         </div>
+      </div>
 
-            <div id="text1" data-relative-input="true" class="container ">
-                    <img class="col-lg-auto col-md-3 col-6 barre img-fluid" data-depth='0.2' src="img/barre.png">
+
+      <div class="section projet1" data-anchor="4rthPage" id="section3">
+         <div class="float-right" data-relative-input="true" id="scene3" style="z-index:-99;">
+            <img alt="cercle" class="img-1 img-fluid large" data-depth='0.1' src="img/cercles.png"> 
+            <img alt="nuage" class="img-4 img-fluid large" data-depth='0.5' src="img/nuages.png">
+         </div>
+
+         <div data-relative-input="true" id="img3">
+            <img alt="projet affiche art nouveau" class="img1 img-fluid" data-depth='0.1' src="img/projet4.png">
+         </div>
+
+         <div class="container titre">
+            <div class="row h100" data-relative-input="true" id="text5">
+               <h1 class="col-lg-auto titreprojet" data-depth='0.1'><b>Affiches</b><br>
+               Art Nouveau</h1><img alt="barre de séparation" class="col-lg-auto barreprojet col-6 img-fluid" data-depth='0.1' src="img/barre.png">
+               <h2 class="col-lg-auto legende" data-depth='0.1'>Print</h2>
             </div>
+         </div>
 
-            <div id="text2" data-relative-input="true" class="container ">
-                <h2 class="col-lg-12 web" data-depth='0.2'>Webdesign & Communication</h2>
+         <div class="container numero">
+            <p class="col-lg-12 text-right num">3</p>
+         </div>
+
+         <div class="container bouton">
+            <a class="btn btn-lg col-6 col-lg-auto voirplus" href="affiches.html">Voir Plus</a>
+         </div>
+      </div>
+
+
+      <div class="section projet1" data-anchor="5thPage" id="section4">
+         <div class="float-right" data-relative-input="true" id="scene5" style="z-index:-99;"><img alt="cercle" class="img-1 img-fluid large" data-depth='0.1' src="img/cercles.png"> <img alt="nuage" class="img-4 img-fluid large" data-depth='0.5' src="img/nuages.png"></div>
+         <div data-relative-input="true" id="img5"><img alt="projet indiglu, identité visuelle" class="img1 img-fluid" data-depth='0.1' src="img/projet4.png"></div>
+         <div class="container titre">
+            <div class="row h100" data-relative-input="true" id="text7">
+               <h1 class="col-lg-auto titreprojet" data-depth='0.1'><b>Indiglu,</b><br>
+               Identité Visuelle</h1><img alt="barre de séparation" class="col-lg-auto barreprojet col-6 img-fluid" data-depth='0.1' src="img/barre.png">
+               <h2 class="col-lg-auto legende" data-depth='0.1'>Charte Graphique & Identité Visuelle</h2>
             </div>
+         </div>
+         <div class="container numero">
+            <p class="col-lg-12 text-right num">4</p>
+         </div>
+         <div class="container bouton">
+            <a class="btn btn-lg col-6 col-lg-auto voirplus" href="indiglu.html">Voir Plus</a>
+         </div>
+      </div>
 
-            <div class=" icones2 large">
-                <a href="https://www.facebook.com/mathilde.vauquieres/"><img  src="img/fb.png"></a>
-                <a href="https://www.instagram.com/mathilde.vauquieres/"><img  src="img/insta.png"></a>
-                <a href="https://www.linkedin.com/in/mathilde-vauquieres/"><img  src="img/linkedin.png"></a>
-        </div>
 
-        </section>
-
-        <div class="section projet1" id="section1" data-anchor="secondPage">   
-            
-            <div id="scene1" data-relative-input="true" class="float-right" style="z-index:-99;">
-                <img src="img/cercles.png" data-depth='0.1'  class="img-1 img-fluid large" id="cercle">
-                <img src="img/nuages.png" data-depth='0.5'  class="img-4 img-fluid large" id="nuage">
+      <div class="section projet1" data-anchor="6thPage" id="section5">
+         <div class="float-right" data-relative-input="true" id="scene4" style="z-index:-99;"><img alt="cercle" class="img-1 img-fluid large" data-depth='0.1' src="img/cercles.png"> <img alt="nuage" class="img-4 img-fluid large" data-depth='0.5' src="img/nuages.png"></div>
+         <div data-relative-input="true" id="img4"><img alt="A propos de moi" class="img1 img-fluid" data-depth='0.1' src="img/projet3.png"></div>
+         <div class="container titre">
+            <div class="row h100" data-relative-input="true" id="text6">
+               <h1 class="col-lg-auto titreprojet" data-depth='0.1'><b>A propos</b><br></h1><img alt="barre de séparation" class="col-lg-auto barreprojet col-6 img-fluid" data-depth='0.1' src="img/barre.png">
+               <h2 class="col-lg-auto legende" data-depth='0.1'>Qui suis-je ?</h2>
             </div>
-            
-            <div id="img1" data-relative-input="true">
-                <img class="img1 img-fluid large " data-depth='0.3' src="img/projet1.png">
-                <img class="img1 img-fluid small" data-depth='0.3' src="img/mairiemobile.png">
+         </div>
+         <div class="container numero">
+            <p class="col-lg-12 text-right num">5</p>
+         </div>
+         <div class="container bouton">
+            <a class="btn btn-lg col-6 col-lg-auto voirplus" href="about.html">Voir Plus</a>
+         </div>
+      </div>
 
-            </div>
+   </div>
 
-            <div class="container titre" >
-                <div class="row h100" id="text3" data-relative-input="true" >
-                    <h1 class="col-lg-auto titreprojet" data-depth='0.1'><b>Mairie</b> <br> Lachapelle-<br>sous-Chaux</h1>
-                    <img class="col-lg-auto col-6 barreprojet img-fluid" src="img/barre.png" data-depth='0.1'>
-                    <h2 class="col-lg-auto legende" data-depth='0.1'>Refonte du site</h2>
-                </div>
-            </div>
 
-            <div class="container numero">
-                <p class="col-lg-12 text-right num">1</p>
-            </div>
+   <script src="js/fullpage.js"></script> 
+   <script src="./js/script.js"></script> 
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script> 
 
-            <div class="container bouton">
-                <a href="mairie.html" class="btn btn-lg col-6 col-lg-auto voirplus">Voir Plus</a>
-            </div>
-        </div>
+   <script>
 
-        <div class="section projet1" id="section2" data-anchor="3rdPage">
-            
-            <div id="scene2" data-relative-input="true" class="float-right" style="z-index:-99;">
-                <img src="img/cercles.png" data-depth='0.1'  class="img-1 img-fluid large" id="cercle">
-                <img src="img/nuages.png" data-depth='0.5'  class="img-4 img-fluid large" id="nuage">
+               var myFullpage = new fullpage('#fullpage', {
+                   anchors: ['firstPage', 'secondPage', '3rdPage', '4rthPage', '5thPage', '6thPage'],
+                   navigation: true,
+                   navigationPosition: 'left',
+               });
 
-            </div>
+               var scene = document.getElementById('scene');
+               var parallaxInstance = new Parallax(scene);
 
-            <div id="img2" data-relative-input="true" >
-            <img class="img1 img-fluid " data-depth='0.1' src="img/projet2.png">
-            <img class="img1 img-fluid small" data-depth='0.3' src="img/campuscarmobile.png">
-            </div>
+               var scene = document.getElementById('text');
+               var parallaxInstance = new Parallax(text);
 
-            <div class="container titre">
-                <div class="row h100"  id="text4" data-relative-input="true" >
-                    <h1 class="col-lg-auto titreprojet" data-depth='0.1'><b>Application</b> <br> Campus Car</h1>
-                    <img class="col-lg-auto col-6 barreprojet img-fluid" data-depth='0.1' src="img/barre.png">
-                    <h2 class="col-lg-auto legende" data-depth='0.1'>Prototypage Interactif</h2>
-                </div>
-            </div>
+               var scene = document.getElementById('text1');
+               var parallaxInstance = new Parallax(text1);
 
-            <div class="container numero">
-                <p class="col-lg-12 text-right num ">2</p>
-            </div>
+               var scene = document.getElementById('text2');
+               var parallaxInstance = new Parallax(text2);
 
-            <div class="container bouton">
-                <a href="campuscar.html" class="btn btn-lg col-6 col-lg-auto voirplus">Voir Plus</a>
-            </div>
-        </div>
+               var scene = document.getElementById('scene1');
+               var parallaxInstance = new Parallax(scene1);
 
-        <div class="section projet1" id="section3" data-anchor="4rthPage">  
+               var scene = document.getElementById('scene2');
+               var parallaxInstance = new Parallax(scene2);
 
-            <div id="scene3" data-relative-input="true" class="float-right" style="z-index:-99;">
-                <img src="img/cercles.png" data-depth='0.1'  class="img-1 img-fluid large" id="cercle">
-                <img src="img/nuages.png" data-depth='0.5'  class="img-4 img-fluid large" id="nuage">
-            </div>
+               var scene = document.getElementById('scene3');
+               var parallaxInstance = new Parallax(scene3);
 
-            <div id="img3" data-relative-input="true">
-                <img class="img1 img-fluid" data-depth='0.1' src="img/projet4.png">
-            </div>
+               var scene = document.getElementById('scene4');
+               var parallaxInstance = new Parallax(scene4);
 
-            <div class="container titre">
-                <div class="row h100" id="text5" data-relative-input="true" >
-                    <h1 class="col-lg-auto titreprojet" data-depth='0.1'><b>Affiches</b> <br> Art Nouveau</h1>
-                    <img class="col-lg-auto barreprojet col-6 img-fluid " data-depth='0.1' src="img/barre.png">
-                    <h2 class="col-lg-auto legende" data-depth='0.1'>Print</h2>
-                </div>
-            </div>
+               var scene = document.getElementById('text3');
+               var parallaxInstance = new Parallax(text3);
 
-            <div class="container numero">
-                <p class="col-lg-12 text-right num">3</p>
-            </div>
+               var scene = document.getElementById('img1');
+               var parallaxInstance = new Parallax(img1);
+                       
+               var scene = document.getElementById('img2');
+               var parallaxInstance = new Parallax(img2);
 
-            <div class="container bouton">
-                <a href="affiches.html" class="btn btn-lg col-6 col-lg-auto voirplus">Voir Plus</a>
-            </div>
-        </div>
+               var scene = document.getElementById('text4');
+               var parallaxInstance = new Parallax(text4);
 
-        <div class="section projet1" id="section4" data-anchor="5thPage">  
+               var scene = document.getElementById('img3');
+               var parallaxInstance = new Parallax(img3);
 
-            <div id="scene5" data-relative-input="true" class="float-right" style="z-index:-99;">
-                <img src="img/cercles.png" data-depth='0.1'  class="img-1 img-fluid large" id="cercle">
-                <img src="img/nuages.png" data-depth='0.5'  class="img-4 img-fluid large" id="nuage">
-            </div>
+               var scene = document.getElementById('text5');
+               var parallaxInstance = new Parallax(text5);
 
-            <div id="img5" data-relative-input="true">
-                <img class="img1 img-fluid" data-depth='0.1' src="img/projet2.png">
-            </div>
+               var scene = document.getElementById('img4');
+               var parallaxInstance = new Parallax(img4);
 
-            <div class="container titre">
-                <div class="row h100" id="text7" data-relative-input="true" >
-                    <h1 class="col-lg-auto titreprojet" data-depth='0.1'><b>Indiglu,</b><br>Identité Visuelle </h1>
-                    <img class="col-lg-auto barreprojet col-6 img-fluid " data-depth='0.1' src="img/barre.png">
-                    <h2 class="col-lg-auto legende" data-depth='0.1'>Charte Graphique & Identité Visuelle</h2>
-                </div>
-            </div>
+               var scene = document.getElementById('text6');
+               var parallaxInstance = new Parallax(text6);
 
-            <div class="container numero">
-                <p class="col-lg-12 text-right num">4</p>
-            </div>
+               var scene = document.getElementById('img5');
+               var parallaxInstance = new Parallax(img5);
 
-            <div class="container bouton">
-                <a href="indiglu.html" class="btn btn-lg col-6 col-lg-auto voirplus">Voir Plus</a>
-            </div>
-        </div>
+               var scene = document.getElementById('text7');
+               var parallaxInstance = new Parallax(text7);
 
-        <div class="section projet1" id="section5" data-anchor="6thPage"> 
-            
-            <div id="scene4" data-relative-input="true" class="float-right" style="z-index:-99;">
-                <img src="img/cercles.png" data-depth='0.1'  class="img-1 img-fluid large" id="cercle">
-                <img src="img/nuages.png" data-depth='0.5'  class="img-4 img-fluid large" id="nuage">
-
-            </div>
-
-            <div id="img4" data-relative-input="true">
-                <img class="img1 img-fluid"  data-depth='0.1'  src="img/projet3.png">
-            </div>
-
-            <div class="container titre">
-                <div class="row h100" id="text6" data-relative-input="true">
-                    <h1 class="col-lg-auto titreprojet"  data-depth='0.1' ><b>A propos</b> <br> </h1>
-                    <img class="col-lg-auto barreprojet col-6 img-fluid"  data-depth='0.1'  src="img/barre.png">
-                    <h2 class="col-lg-auto legende"  data-depth='0.1' >Qui suis-je ?</h2>
-                </div>
-            </div>
-
-            <div class="container numero">
-                <p class="col-lg-12 text-right num ">5</p>
-            </div>
-
-            <div class="container bouton">
-                <a href="about.html" class="btn btn-lg col-6 col-lg-auto voirplus">Voir Plus</a>
-            </div>
-        </div>
-
-    </div>
-            
-
-        <script type="text/javascript" src="js/fullpage.js"></script>  
-        <script src="./js/script.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
-
-        <script type="text/javascript">
-
-            var myFullpage = new fullpage('#fullpage', {
-                anchors: ['firstPage', 'secondPage', '3rdPage', '4rthPage', '5thPage', '6thPage'],
-                navigation: true,
-                navigationPosition: 'left',
-            });
-
-            var scene = document.getElementById('scene');
-            var parallaxInstance = new Parallax(scene);
-
-            var scene = document.getElementById('text');
-            var parallaxInstance = new Parallax(text);
-
-            var scene = document.getElementById('text1');
-            var parallaxInstance = new Parallax(text1);
-
-            var scene = document.getElementById('text2');
-            var parallaxInstance = new Parallax(text2);
-
-            var scene = document.getElementById('scene1');
-            var parallaxInstance = new Parallax(scene1);
-
-            var scene = document.getElementById('scene2');
-            var parallaxInstance = new Parallax(scene2);
-
-            var scene = document.getElementById('scene3');
-            var parallaxInstance = new Parallax(scene3);
-
-            var scene = document.getElementById('scene4');
-            var parallaxInstance = new Parallax(scene4);
-
-            var scene = document.getElementById('text3');
-            var parallaxInstance = new Parallax(text3);
-
-            var scene = document.getElementById('img1');
-            var parallaxInstance = new Parallax(img1);
-                    
-            var scene = document.getElementById('img2');
-            var parallaxInstance = new Parallax(img2);
-
-            var scene = document.getElementById('text4');
-            var parallaxInstance = new Parallax(text4);
-
-            var scene = document.getElementById('img3');
-            var parallaxInstance = new Parallax(img3);
-
-            var scene = document.getElementById('text5');
-            var parallaxInstance = new Parallax(text5);
-
-            var scene = document.getElementById('img4');
-            var parallaxInstance = new Parallax(img4);
-
-            var scene = document.getElementById('text6');
-            var parallaxInstance = new Parallax(text6);
-
-            var scene = document.getElementById('img5');
-            var parallaxInstance = new Parallax(img5);
-
-            var scene = document.getElementById('text7');
-            var parallaxInstance = new Parallax(text7);
-
-            var scene = document.getElementById('scene5');
-            var parallaxInstance = new Parallax(scene5);
-
-            
-                    
-                    
-        </script>
-
-    </body>
-
+               var scene = document.getElementById('scene5');
+               var parallaxInstance = new Parallax(scene5);               
+   </script>
+</body>
 </html>
-
-
-
-    
