@@ -143,7 +143,6 @@
 
   .titre{
     position: absolute!important;
-    margin-top: 100%;
   }
 
   #scene{
@@ -195,6 +194,55 @@
 
   .mail2{
     padding-bottom: 35%;
+  }
+
+  .headerAccueil{
+    position:absolute;
+  }
+
+  .cc{
+    color:#032620;
+    margin-top:-6%;
+  }
+  .cc1b, .cc1bb{
+    margin-left:0%;
+  }
+
+  .descriptioncc{
+    padding-top:15%;
+  }
+
+  .font{
+    font-size:15px;
+  }
+
+  .cc3{
+    margin-bottom: 77%;
+    margin-top: -125%;
+  }
+
+  .textcc3{
+    margin-top: 69%;
+  }
+
+  .textcc2{
+    margin-top:-5%;
+  }
+
+  .textcc6{
+    width:100%;
+  }
+
+  .footerabout1{
+    text-align:center!important;
+  }
+
+  .icones{
+    margin-left:22%!important;
+  }
+
+  .liensf, .droit{
+    text-align:center!important
   }
 
   

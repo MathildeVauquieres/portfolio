@@ -27,6 +27,10 @@ html, body{
 
 /* ------------- IMG ACCUEIL-------------*/
 
+.tommy{
+    font-family: 'MADE Tommy Soft Light', sans-serif;
+}
+
 .headerAccueil{
     background:rgba(255,255,255,0);
 
@@ -35,7 +39,6 @@ html, body{
     float:left;
     margin-left:2%;
     margin-top:1%;
-    position: fixed;
     color: #917999;
     z-index:9;
 }
@@ -312,14 +315,22 @@ padding-left:0!important;
     text-decoration: none;
 }
 
-.liensf{
+.lien{
     color:#8E7396;
     font-size: 20px;
     cursor: pointer;
     line-height: 50px;
 }
+
+.liensf{
+    color:#8E7396;
+    font-size: 20px;
+    cursor: pointer;
+    line-height: 50px;
+    text-align:right;
+}
     
-.liensf:hover{
+.liensf:hover, .lien:hover{
     color: violet;
     text-decoration: none;
 }
@@ -327,6 +338,7 @@ padding-left:0!important;
 .droit{
     padding-top:3%;
     font-size: 15px;
+    text-align:right;
 }
 /* -------------MENU-------------*/
 
@@ -758,7 +770,8 @@ padding-left:0!important;
 
 .descriproj{
     margin-left:15%;
-    padding-bottom:5%
+    padding-bottom:5%;
+    color:#f3f3f3;
 }
 
 
@@ -803,6 +816,10 @@ padding-left:0!important;
     margin-top:-10%;
 }
 
+.textcc2{
+    margin-top:7%;
+}
+
 #fp-nav ul li a span{
     border-radius: 0%!important;
     height:2px!important;
@@ -813,3 +830,9 @@ padding-left:0!important;
     width: 50px!important;
     height:3px!important;
 }
+
+.textcc6{
+    width:75%;
+}
+
+
