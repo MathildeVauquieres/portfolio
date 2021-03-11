@@ -128,7 +128,7 @@
 		margin-top: 73%;
 	}
 	.img1 {
-		margin-top: -89%;
+		margin-top: -98%;
 		margin-left: 0%;
 	}
 	.num {
@@ -196,5 +196,25 @@
     	position: fixed;
     	width: 15%;
 		z-index:999;
+	}
+	.imgaccueilaff{
+		display:block;
+		margin-top:-166%;
+	}
+	.aff{
+		color:#032620;
+	}
+
+	.sumuptel{
+		margin-top: -24%;
+	}
+
+	.mono{
+		display: flex;
+		justify-content: center;
+	}
+
+	.afftel{
+		padding-bottom:10%;
 	}
 }
