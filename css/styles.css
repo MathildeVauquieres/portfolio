@@ -363,6 +363,7 @@ html, body {
 	font-size: 100px;
 	text-align: center;
 	margin-bottom: -1.2%;
+	padding-top: 10%;
 }
 
 .titreabout1 {
@@ -599,7 +600,7 @@ html, body {
 
 /* ------------- projet mairie > part1-------------*/
 
-.projetsumup, .annee, .description, .charte, .dev, .com, .final, .next {
+.projetsumup,.projetsumupaff, .annee, .description, .charte, .dev, .com, .final, .next {
 	background-color: #f3f3f3;
 	font-family: "playfair display", sans-serif;
 	color: #032620;
@@ -706,5 +707,13 @@ html, body {
 #fp-nav ul li a.active span {
 	width: 50px!important;
 	height: 3px!important;
+}
+
+.imgaccueilaff{
+	margin-top:-44%;
+}
+
+.projetsumupaff{
+	padding-top:10%;
 }
 
